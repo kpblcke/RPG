@@ -72,6 +72,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1213457403554886064, guid: c5cd4fde43112014bbc8ae2862ec02b1, type: 3}
+      propertyPath: timeBetweenAttacks
+      value: 1.4
+      objectReference: {fileID: 0}
     - target: {fileID: 4378198539244602548, guid: c5cd4fde43112014bbc8ae2862ec02b1, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -116,6 +120,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4628075850636262489, guid: c5cd4fde43112014bbc8ae2862ec02b1, type: 3}
+      propertyPath: m_Speed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5362246233805588230, guid: c5cd4fde43112014bbc8ae2862ec02b1, type: 3}
       propertyPath: health
       value: 20
@@ -149,6 +157,19 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &319924785587460118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348974286601539955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 044d9e72a9d0467589fdeb6cfe9debb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chaseDistance: 3
 --- !u!114 &8348912015171224799
 MonoBehaviour:
   m_ObjectHideFlags: 0
