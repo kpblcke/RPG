@@ -13,6 +13,7 @@ namespace RPG.Movement
         [SerializeField] Transform _target;
         [SerializeField] NavMeshAgent _navMeshAgent;
         [SerializeField] Animator _animator;
+        Health health;
 
         private Ray lastRay;
 
@@ -21,11 +22,13 @@ namespace RPG.Movement
         {
             _navMeshAgent = GetComponent<NavMeshAgent>();
             _animator = GetComponent<Animator>();
+            health = GetComponent<Health>();
         }
 
         // Update is called once per frame
         void Update()
         {
+            _navMeshAgent.enabled = health.IsAlive();
             UpdateAnimator();
         }
         
