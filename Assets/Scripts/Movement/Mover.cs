@@ -13,6 +13,7 @@ namespace RPG.Movement
         [SerializeField] Transform _target;
         [SerializeField] NavMeshAgent _navMeshAgent;
         [SerializeField] Animator _animator;
+        [SerializeField] float maxSpeed = 6f;
         Health health;
 
         private Ray lastRay;
@@ -32,16 +33,17 @@ namespace RPG.Movement
             UpdateAnimator();
         }
         
-        public void StartMoveAction(Vector3 destination)
+        public void StartMoveAction(Vector3 destination, float speedFraction)
         {
             GetComponent<ActionScheduler>().StartAction(this);
             GetComponent<Fighter>().Cancel();
-            MoveTo(destination);
+            MoveTo(destination, speedFraction);
         }
 
-        public void MoveTo(Vector3 destination)
+        public void MoveTo(Vector3 destination, float speedFraction)
         {
             _navMeshAgent.destination = destination;
+            _navMeshAgent.speed = maxSpeed * speedFraction;
             _navMeshAgent.isStopped = false;
         }
         
