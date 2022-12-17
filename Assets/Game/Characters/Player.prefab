@@ -28,6 +28,14 @@ PrefabInstance:
       propertyPath: weaponOverride
       value: 
       objectReference: {fileID: 22100000, guid: a0ddd94ef0d4e1344ba4fd8e1cbbe3e2, type: 2}
+    - target: {fileID: 1213457403554886064, guid: c5cd4fde43112014bbc8ae2862ec02b1, type: 3}
+      propertyPath: leftHandTransform
+      value: 
+      objectReference: {fileID: 8858771354844003351}
+    - target: {fileID: 1213457403554886064, guid: c5cd4fde43112014bbc8ae2862ec02b1, type: 3}
+      propertyPath: rightHandTransform
+      value: 
+      objectReference: {fileID: 8858771354843929727}
     - target: {fileID: 4378198539244602548, guid: c5cd4fde43112014bbc8ae2862ec02b1, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -112,6 +120,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5899dff71d49bae4bacf013aa0f28c60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &7299561982837289912
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6356336197464528848}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!136 &4279336724610115505
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6356336197464528848}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.3
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1001 &8858771354844386811
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -183,5 +221,10 @@ Transform:
 --- !u!4 &8858771354843967713 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 435482, guid: 679ff741e12a7e740819ede24a7000b7, type: 3}
+  m_PrefabInstance: {fileID: 8858771354844386811}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8858771354844003351 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 403948, guid: 679ff741e12a7e740819ede24a7000b7, type: 3}
   m_PrefabInstance: {fileID: 8858771354844386811}
   m_PrefabAsset: {fileID: 0}
