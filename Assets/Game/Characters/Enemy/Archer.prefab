@@ -20,6 +20,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Archer
       objectReference: {fileID: 0}
+    - target: {fileID: 2124238379995550257, guid: 690e3fce7725be048bb458ba62b7cba6, type: 3}
+      propertyPath: characterClass
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3157230561681935255, guid: 690e3fce7725be048bb458ba62b7cba6, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -28,6 +32,14 @@ PrefabInstance:
       propertyPath: defaultWeapon
       value: 
       objectReference: {fileID: 11400000, guid: b53bb461b1b93494f8325615513fe142, type: 2}
+    - target: {fileID: 6033105626753924493, guid: 690e3fce7725be048bb458ba62b7cba6, type: 3}
+      propertyPath: defaultWeaponName
+      value: Bow Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 7130098061235662022, guid: 690e3fce7725be048bb458ba62b7cba6, type: 3}
+      propertyPath: characterClass
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9199878574069778569, guid: 690e3fce7725be048bb458ba62b7cba6, type: 3}
       propertyPath: m_RootOrder
       value: 0

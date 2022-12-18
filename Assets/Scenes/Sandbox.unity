@@ -1077,6 +1077,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6033105626753924493, guid: 690e3fce7725be048bb458ba62b7cba6, type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: 331de014af20f5a408cf56709304df4a, type: 2}
     - target: {fileID: 9199878574069778569, guid: 690e3fce7725be048bb458ba62b7cba6, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -2025,6 +2029,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6033105626753924493, guid: 690e3fce7725be048bb458ba62b7cba6, type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: 331de014af20f5a408cf56709304df4a, type: 2}
     - target: {fileID: 9199878574069778569, guid: 690e3fce7725be048bb458ba62b7cba6, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -2233,6 +2241,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6033105626753924493, guid: 690e3fce7725be048bb458ba62b7cba6, type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: 331de014af20f5a408cf56709304df4a, type: 2}
     - target: {fileID: 9199878574069778569, guid: 690e3fce7725be048bb458ba62b7cba6, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -3562,6 +3574,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6033105626753924493, guid: 690e3fce7725be048bb458ba62b7cba6, type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: 331de014af20f5a408cf56709304df4a, type: 2}
     - target: {fileID: 9199878574069778569, guid: 690e3fce7725be048bb458ba62b7cba6, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -3697,7 +3713,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2119952353}
-  m_LocalRotation: {x: 0.26636586, y: -0.4100954, z: 0.12656938, w: 0.86304766}
+  m_LocalRotation: {x: 0.26636583, y: -0.41009536, z: 0.12656935, w: 0.86304766}
   m_LocalPosition: {x: 1.69, y: 6.6, z: -0.78}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4041,7 +4057,11 @@ PrefabInstance:
     - target: {fileID: 5615462408036864956, guid: 13946efd7f4dc624b8954f4864c8fb37, type: 3}
       propertyPath: defaultWeapon
       value: 
-      objectReference: {fileID: 11400000, guid: afb99a48e3c7bc447b16f592547442fc, type: 2}
+      objectReference: {fileID: 11400000, guid: 331de014af20f5a408cf56709304df4a, type: 2}
+    - target: {fileID: 5615462408036864956, guid: 13946efd7f4dc624b8954f4864c8fb37, type: 3}
+      propertyPath: defaultWeaponName
+      value: Fireball
+      objectReference: {fileID: 0}
     - target: {fileID: 6114056763303565014, guid: 13946efd7f4dc624b8954f4864c8fb37, type: 3}
       propertyPath: m_Name
       value: Core
@@ -4100,11 +4120,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6114056764479350753, guid: 13946efd7f4dc624b8954f4864c8fb37, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.3898642
+      value: -0.38986427
       objectReference: {fileID: 0}
     - target: {fileID: 6114056764479350753, guid: 13946efd7f4dc624b8954f4864c8fb37, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.16707395
+      value: -0.16707394
       objectReference: {fileID: 0}
     - target: {fileID: 6114056764479350753, guid: 13946efd7f4dc624b8954f4864c8fb37, type: 3}
       propertyPath: m_LocalRotation.y
@@ -4128,11 +4148,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6114056764883374632, guid: 13946efd7f4dc624b8954f4864c8fb37, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.3898642
+      value: -0.38986427
       objectReference: {fileID: 0}
     - target: {fileID: 6114056764883374632, guid: 13946efd7f4dc624b8954f4864c8fb37, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.16707395
+      value: -0.16707394
       objectReference: {fileID: 0}
     - target: {fileID: 6114056764883374632, guid: 13946efd7f4dc624b8954f4864c8fb37, type: 3}
       propertyPath: m_LocalRotation.y
