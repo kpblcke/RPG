@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using RPG.Attributes;
@@ -20,15 +21,13 @@ namespace RPG.Movement
 
         private Ray lastRay;
 
-        // Start is called before the first frame update
-        void Start()
+        void Awake()
         {
             _navMeshAgent = GetComponent<NavMeshAgent>();
             _animator = GetComponent<Animator>();
             health = GetComponent<Health>();
         }
 
-        // Update is called once per frame
         void Update()
         {
             _navMeshAgent.enabled = health.IsAlive();
@@ -72,7 +71,7 @@ namespace RPG.Movement
             if (state is SerializableTransform posRot)
             {
                 transform.rotation = posRot.ToTransform().Rotation;
-                GetComponent<NavMeshAgent>().Warp(posRot.ToTransform().Position);
+                _navMeshAgent.Warp(posRot.ToTransform().Position);
             } 
         }
     }

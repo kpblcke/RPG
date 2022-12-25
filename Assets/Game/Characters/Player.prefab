@@ -10,12 +10,20 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -6801061166983405317, guid: c5cd4fde43112014bbc8ae2862ec02b1, type: 3}
       propertyPath: startingLevel
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -6801061166983405317, guid: c5cd4fde43112014bbc8ae2862ec02b1, type: 3}
       propertyPath: characterClass
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6801061166983405317, guid: c5cd4fde43112014bbc8ae2862ec02b1, type: 3}
+      propertyPath: shouldUseModifiers
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6801061166983405317, guid: c5cd4fde43112014bbc8ae2862ec02b1, type: 3}
+      propertyPath: levelUpParticleEffect
+      value: 
+      objectReference: {fileID: 8163373606619465363, guid: b42ee60b9253d1541ab7beb0f6be1515, type: 3}
     - target: {fileID: 1213457403554886064, guid: c5cd4fde43112014bbc8ae2862ec02b1, type: 3}
       propertyPath: weapon
       value: 
@@ -96,6 +104,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 3f6fc0cf5e5d31c458bc74ede87cb8ae, type: 2}
+    - target: {fileID: 5362246233805588230, guid: c5cd4fde43112014bbc8ae2862ec02b1, type: 3}
+      propertyPath: health
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 5897024429025811790, guid: c5cd4fde43112014bbc8ae2862ec02b1, type: 3}
       propertyPath: m_Name
       value: Player

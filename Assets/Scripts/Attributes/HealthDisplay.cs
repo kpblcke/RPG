@@ -22,7 +22,7 @@ namespace RPG.Attributes
 
         private void Update()
         {
-            _textMeshPro.text = String.Format("{0:0}%", health.GetPercentage());
+            _textMeshPro.text = String.Format("{0:0}/{1:0}", health.GetHealthPoints(), health.GetMaxHealthPoints());
         }
     }
 }
