@@ -34,7 +34,7 @@ namespace RPG.Combat
             {
                 _textMeshPro.text = "Dead";
             } else {
-                _textMeshPro.text = String.Format("{0:0}%", health.GetPercentage());
+                _textMeshPro.text = String.Format("{0:0}/{1:0}", health.GetHealthPoints(), health.GetMaxHealthPoints());
             }
         }
     }

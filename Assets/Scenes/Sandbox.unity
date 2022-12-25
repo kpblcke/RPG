@@ -4141,7 +4141,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1210548779171012173, guid: 13946efd7f4dc624b8954f4864c8fb37, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 83.100006
+      value: 90.600006
       objectReference: {fileID: 0}
     - target: {fileID: 1210548779171012173, guid: 13946efd7f4dc624b8954f4864c8fb37, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -4213,11 +4213,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6114056764479350753, guid: 13946efd7f4dc624b8954f4864c8fb37, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.3898642
+      value: -0.38986427
       objectReference: {fileID: 0}
     - target: {fileID: 6114056764479350753, guid: 13946efd7f4dc624b8954f4864c8fb37, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.16707395
+      value: -0.16707394
       objectReference: {fileID: 0}
     - target: {fileID: 6114056764479350753, guid: 13946efd7f4dc624b8954f4864c8fb37, type: 3}
       propertyPath: m_LocalRotation.y
@@ -4241,11 +4241,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6114056764883374632, guid: 13946efd7f4dc624b8954f4864c8fb37, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.3898642
+      value: -0.38986427
       objectReference: {fileID: 0}
     - target: {fileID: 6114056764883374632, guid: 13946efd7f4dc624b8954f4864c8fb37, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.16707395
+      value: -0.16707394
       objectReference: {fileID: 0}
     - target: {fileID: 6114056764883374632, guid: 13946efd7f4dc624b8954f4864c8fb37, type: 3}
       propertyPath: m_LocalRotation.y
@@ -4266,6 +4266,10 @@ PrefabInstance:
     - target: {fileID: 7060320426796459704, guid: 13946efd7f4dc624b8954f4864c8fb37, type: 3}
       propertyPath: m_LocalPosition.z
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8981574845375185655, guid: 13946efd7f4dc624b8954f4864c8fb37, type: 3}
+      propertyPath: shouldUseModifiers
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
